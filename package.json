@@ -1,0 +1,15 @@
+{
+  "name": "bioclipbootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bioclip.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boly38",
+  "license": "MIT",
+  "devDependencies": {
+    "@gradio/client": "^1.1.1"
+  }
+}
