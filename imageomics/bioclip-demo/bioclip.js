@@ -1,5 +1,4 @@
 import {Client} from "@gradio/client";
-import * as fs from "node:fs";
 import * as path from "node:path";
 
 const BUS_IMAGE = "https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png";
@@ -69,6 +68,7 @@ class Demonstrator {
         ).catch(console.error);
         printObject(result);
     }
+
 }
 
 try {
@@ -82,6 +82,7 @@ try {
 
 /**
  * usage :
- * node bioclip.js
- * node bioclip.js help
+ * node imageomics/bioclip-demo/bioclip.js
+ * node imageomics/bioclip-demo/bioclip.js help
+ * node imageomics/bioclip-demo/bioclip.js odc_url
  */
